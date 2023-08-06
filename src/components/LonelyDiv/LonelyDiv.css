@@ -1,0 +1,14 @@
+.lonely_div-SlideLeft{
+    animation: slideLeft 5s linear 7s forwards ;
+}
+
+
+
+
+
+@keyframes slideLeft{
+    0%   {transform: translateX(0)}
+    25%  {transform: translateX(-50%)}
+    50%  {transform: translateX(-75%) }
+    100% {transform:  translateX(-100%)}
+}

@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import LonelyDiv from './components/LonelyDiv/LonelyDiv';
+import React from 'react'
+import AnimatedHeader from './components/AnimatedHeader/AnimatedHeader';
+import AnimatedBody from './components/AnimatedBody/AnimatedBody';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='flex justify-center items-center bg-slate-900 w-full h-screen fixed'>
+         <AnimatedHeader/>
+         <LonelyDiv/>
+         <AnimatedBody/>
+         
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

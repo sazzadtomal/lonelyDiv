@@ -1,14 +1,14 @@
-.lonely_div-SlideLeft{
-    animation: slideLeft 5s linear 7s forwards ;
+.lonely_div_appearance{
+    animation: appearance 3s linear forwards ;
 }
 
 
 
 
 
-@keyframes slideLeft{
-    0%   {transform: translateX(0)}
-    25%  {transform: translateX(-50%)}
-    50%  {transform: translateX(-75%) }
-    100% {transform:  translateX(-100%)}
+@keyframes appearance{
+    0%   {opacity: 0}
+    25%  {opacity: 0.25}
+    50%  {opacity: 0.50}
+    100% {opacity:1}
 }

@@ -1,0 +1,15 @@
+.bodyOpacity{
+    opacity: 0;
+    animation: bodyOpacity 5s linear 7s forwards;
+}
+
+
+
+
+
+@keyframes bodyOpacity{
+    0%   {opacity: 0}
+    25%  {opacity: 0.25}
+    50%  {opacity: 0.50}
+    100% {opacity:1}
+}

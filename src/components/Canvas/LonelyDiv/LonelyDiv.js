@@ -1,5 +1,5 @@
 import React from 'react'
-import sadEmoji from "../../assets/sad.png"
+import sadEmoji from "../../../assets/sad.png"
 import "./LonelyDiv.css"
 
 const LonelyDiv = () => {
